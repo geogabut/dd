@@ -42,33 +42,32 @@ echo -e  " $gl ║\e[m$bd 4$bl]\e[m$bd Panel SSTP  Account"
 echo -e  " $bl ║\e[m$bd 5$bl]\e[m$bd Panel SSR & SS Account"
 echo -e  " $bl ║\e[m$bd 6$bl]\e[m$bd Panel V2Ray"
 echo -e  " $bl ║\e[m$bd 7$bl]\e[m$bd Panel VLess"
-echo -e  " $bl ║\e[m$bd 8$bl]\e[m$bd Panel TRojanGO"
-echo -e  " $bl ║\e[m$bd 9$bl]\e[m$bd Panel TrojanGFW                                         ╥"
+echo -e  " $bl ║\e[m$bd 8$bl]\e[m$bd Panel TrojanGFW                                         ╥"
 echo -e   "  \e[1;32m╠════════════════════════════════════════════════════════════╣\e[m" | lolcat
 echo -e   "  ║                       ┃SYSTEM MENU┃                        ║\e[m" | lolcat 
 echo -e   "  \e[1;32m╠════════════════════════════════════════════════════════════╣\e[m" | lolcat
-echo -e   " $mg ║\e[m$bd 10$bl]\e[m$bd Add Subdomain Host For VPS                             ╨"
-echo -e   " $mg ║\e[m$bd 11$bl]\e[m$bd Renew Certificate V2RAY"
-echo -e   " $mg ║\e[m$bd 12$bl]\e[m$bd Change Port All Account"
-echo -e   " $mg ║\e[m$bd 13$bl]\e[m$bd Autobackup Data VPS"
-echo -e   " $mg ║\e[m$bd 14$bl]\e[m$bd Backup Data VPS"
-echo -e   " $mg ║\e[m$bd 15$bl]\e[m$bd Restore Data VPS"
-echo -e   " $gl ║\e[m$bd 16$bl]\e[m$bd Webmin Menu"
-echo -e   " $gl ║\e[m$bd 17$bl]\e[m$bd Limit Bandwith Speed Server"
-echo -e   " $gl ║\e[m$bd 18$bl]\e[m$bd Check Usage of VPS Ram" 
-echo -e   " $gl ║\e[m$bd 19$bl]\e[m$bd Reboot VPS"
-echo -e   " $gl ║\e[m$bd 20$bl]\e[m$bd Speedtest VPS"
-echo -e   " $gl ║\e[m$bd 21$bl]\e[m$bd Information Display System" 
-echo -e   " $gl ║\e[m$bd 22$bl]\e[m$bd Info Script Auto Install"
-echo -e   " $gl ║\e[m$bd 23$bl]\e[m$bd Install BBR"
-echo -e   " $bl ║\e[m$bd 24$bl]\e[m$bd Set Auto Reboot"
-echo -e   " $bl ║\e[m$bd 25$bl]\e[m$bd Status Tunneling"
-echo -e   " $bl ║\e[m$bd 26$bl]\e[m$bd Clear Log"
-echo -e   " $bl ║\e[m$bd 27$bl]\e[m$bd Restart All Service"
-echo -e   " $bl ║\e[m$bd 28$bl]\e[m$bd Cek Bandwidth VPS"
-echo -e   " $bl ║\e[m$bd 29$bl]\e[m$bd Add ID Cloudflare"
-echo -e   " $bl ║\e[m$bd 30$bl]\e[m$bd Cloudflare Add-Ons" 
-echo -e   " $bl ║\e[m$bd 31$bl]\e[m$bd Pointing BUG                                           ╥"
+echo -e   " $mg ║\e[m$bd 9$bl]\e[m$bd Add Subdomain Host For VPS                             ╨"
+echo -e   " $mg ║\e[m$bd 10$bl]\e[m$bd Renew Certificate V2RAY"
+echo -e   " $mg ║\e[m$bd 11$bl]\e[m$bd Change Port All Account"
+echo -e   " $mg ║\e[m$bd 12$bl]\e[m$bd Autobackup Data VPS"
+echo -e   " $mg ║\e[m$bd 13$bl]\e[m$bd Backup Data VPS"
+echo -e   " $mg ║\e[m$bd 14$bl]\e[m$bd Restore Data VPS"
+echo -e   " $gl ║\e[m$bd 15$bl]\e[m$bd Webmin Menu"
+echo -e   " $gl ║\e[m$bd 16$bl]\e[m$bd Limit Bandwith Speed Server"
+echo -e   " $gl ║\e[m$bd 17$bl]\e[m$bd Check Usage of VPS Ram" 
+echo -e   " $gl ║\e[m$bd 18$bl]\e[m$bd Reboot VPS"
+echo -e   " $gl ║\e[m$bd 19$bl]\e[m$bd Speedtest VPS"
+echo -e   " $gl ║\e[m$bd 20$bl]\e[m$bd Information Display System" 
+echo -e   " $gl ║\e[m$bd 21$bl]\e[m$bd Info Script Auto Install"
+echo -e   " $gl ║\e[m$bd 22$bl]\e[m$bd Install BBR"
+echo -e   " $bl ║\e[m$bd 23$bl]\e[m$bd Set Auto Reboot"
+echo -e   " $bl ║\e[m$bd 24$bl]\e[m$bd Status Tunneling"
+echo -e   " $bl ║\e[m$bd 25$bl]\e[m$bd Clear Log"
+echo -e   " $bl ║\e[m$bd 26$bl]\e[m$bd Restart All Service"
+echo -e   " $bl ║\e[m$bd 27$bl]\e[m$bd Cek Bandwidth VPS"
+echo -e   " $bl ║\e[m$bd 28$bl]\e[m$bd Add ID Cloudflare"
+echo -e   " $bl ║\e[m$bd 29$bl]\e[m$bd Cloudflare Add-Ons" 
+echo -e   " $bl ║\e[m$bd 30$bl]\e[m$bd Pointing BUG                                           ╥"
 echo -e   "  \e[1;32m╠════════════════════════════════════════════════════════════╣\e[m" | lolcat
 echo -e   "  ║ x)   Exit                                                  ║\e[m" | lolcat
 echo -e   "  \e[1;32m╚════════════════════════════════════════════════════════════╝\e[m" | lolcat
@@ -98,75 +97,72 @@ v2raay
 vleess
 ;;
 8)
-trojanGO
-;;
-9)
 trojaan
 ;;
-10)
+9)
 add-host
 ;;
-11)
+10)
 certv2ray
 ;;
-12)
+11)
 change-port
 ;;
-13)
+12)
 autobackup
 ;;
-14)
+13)
 backup
 ;;
-15)
+14)
 restore
 ;;
-16)
+15)
 wbmn
 ;;
-17)
+16)
 limit-speed
 ;;
-18)
+17)
 ram
 ;;
-19)
+18)
 reboot
 ;;
-20)
+19)
 speedtest
 ;;
-21)
+20)
 info
 ;;
-22)
+21)
 about
 ;;
-23)
+22)
 bbr
 ;;
-24)
+23)
 auto-reboot
 ;;
-25)
+24)
 running
 ;;
-26)
+25)
 clear-log
 ;;
-27)
+26)
 restart
 ;;
-28)
+27)
 bw
 ;;
-29)
+28)
 cff
 ;;
-30)
+29)
 cfd
 ;;
-31)
+30)
 cfh
 ;;
 x)

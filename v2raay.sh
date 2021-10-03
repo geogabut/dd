@@ -6,14 +6,6 @@ bl='\e[36;1m'
 bd='\e[1m'
 MYIP=$(wget -qO- ifconfig.co);
 echo "Checking VPS"
-IZIN=$( curl https://raw.githubusercontent.com/hesoyam-oke/asu/main/Asu.txt | grep $MYIP )
-if [ $MYIP = $IZIN ]; then
-echo -e "${green}Permission Accepted...${NC}"
-else
-echo -e "${red}Permission Denied!${NC}";
-echo "Only For Premium Users"
-exit 0
-fi
 clear
 figlet PANEL V2RAY | lolcat
 echo -e "\e[1;32m══════════════════════════════════════════\e[m" | lolcat
