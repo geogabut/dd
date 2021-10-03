@@ -10,14 +10,6 @@ or='\033[1;33m'
 bd='\e[1m'
 MYIP=$(wget -qO- ifconfig.co);
 echo "Checking VPS"
-IZIN=$( curl https://raw.githubusercontent.com/hesoyam-oke/asu/main/Asu.txt | grep $MYIP )
-if [ $MYIP = $IZIN ]; then
-echo -e "${green}Permission Accepted...${NC}"
-else
-echo -e "${red}Permission Denied!${NC}";
-echo "Only For Premium Users"
-exit 0
-fi
 clear 
 cat /usr/bin/bannerku | lolcat
 ISP=$(curl -s ipinfo.io/org | cut -d " " -f 2-10 )
